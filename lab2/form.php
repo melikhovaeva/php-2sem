@@ -60,7 +60,7 @@
                   <legend>Куда ответить?</legend>
                   <label class = "info__shell info__shell--send">
                     <input class = "info__remember visually-hidden" type="checkbox" name="where_to_answer" value="e-mail"> 
-                    <span class = "info__checkbox">E-mail</span>
+                    <span class = "info__checkbox" required>E-mail</span>
                   </label>
                   <label class = "info__shell info__shell--send">
                     <input class = "info__remember visually-hidden" type="checkbox" name="where_to_answer" value="sms"> 

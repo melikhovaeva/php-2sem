@@ -20,7 +20,7 @@
       <nav>
         <a class="active" href="../lab1/index.php">Лаб 1</a>
         <a href="../lab2/form.php">Лаб 2</a>
-        <a href="#about">Лаб 3</a>
+        <a href="../laba3.pdf">Лаб 3</a>
         <a href="#about">Лаб 4</a>
         <a href="#about">Лаб 5</a>
       </nav>
