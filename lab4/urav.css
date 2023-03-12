@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items:center;
+  padding: 20px 10px;
+  margin: 50px;
+}
+
+
+header a {
+  color: #212121;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+
+header a:hover {
+  background-color: black;
+  color: white;
+}
+
+header a.active {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main__heading, .main__subtitle  {
+  letter-spacing: .2rem;
+  margin-bottom: 15px;
+}
+.main__heading > span, .main__subtitle > span {
+  color: black;
+  font-weight: bold;
+}
+.main__input {
+  font-size: 20px;
+  padding: 15px 25px;
+  border-color: #212121;
+  border-radius: 10px;
+}
+.main__input::placeholder {
+  font-size: 20px;
+}
+.main__answer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 15px 25px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.main__answer:hover {
+  background-color: #b4b4b4;
+  border-color: #b4b4b4;
+}
+
+.main__output {
+  text-align: center; 
+  padding: 20px;
+  background: transparent;
+  border: 2px solid #999;
+  border-radius: 1.2rem;
+  font-size: 20px;
+  resize: none;
+  outline: none;
+  pointer-events: none;
+}
+
+footer {
+      margin: 50px;
+      align-items: center;
+}
