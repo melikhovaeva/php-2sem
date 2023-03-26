@@ -22,7 +22,7 @@
         <a href="../lab2/form.php">Лаб 2</a>
         <a href="../laba3.pdf">Лаб 3</a>
         <a class="active" href="../lab4/urav.php">Лаб 4</a>
-        <a href="#about">Лаб 5</a>
+        <a href="../lab5/calculator.php">Лаб 5</a>
       </nav>
     </header>
     <main class="main">
